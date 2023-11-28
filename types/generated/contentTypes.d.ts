@@ -368,6 +368,7 @@ export interface ApiArticleArticle extends Schema.CollectionType {
     singularName: 'article';
     pluralName: 'articles';
     displayName: 'article';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -386,7 +387,7 @@ export interface ApiArticleArticle extends Schema.CollectionType {
         };
       }> &
       Attribute.SetMinMaxLength<{
-        minLength: 60;
+        maxLength: 100;
       }> &
       Attribute.DefaultTo<'Meta Title'>;
     metaDescription: Attribute.String &
@@ -397,7 +398,7 @@ export interface ApiArticleArticle extends Schema.CollectionType {
         };
       }> &
       Attribute.SetMinMaxLength<{
-        minLength: 160;
+        maxLength: 200;
       }> &
       Attribute.DefaultTo<'Meta Description'>;
     displayTitle: Attribute.String &
