@@ -126,6 +126,20 @@
         }
       },
       "component": "meta.meta-title"
+    },
+    "area": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "education",
+        "medicine",
+        "common"
+      ],
+      "required": true
     }
   }
 }
