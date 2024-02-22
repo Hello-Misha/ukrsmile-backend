@@ -111,6 +111,12 @@
       "type": "string",
       "default": "url-of-the-article",
       "required": true
+    },
+    "project": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::project.project",
+      "inversedBy": "articles"
     }
   }
 }

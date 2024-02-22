@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_project_page_results",
+  "info": {
+    "displayName": "results",
+    "icon": "gift"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

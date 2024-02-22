@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_project_page_references",
+  "info": {
+    "displayName": "references",
+    "icon": "heart"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "text"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}
