@@ -140,6 +140,15 @@
         "common"
       ],
       "required": true
+    },
+    "index": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer",
+      "required": true
     }
   }
 }
